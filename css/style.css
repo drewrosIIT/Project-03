@@ -126,7 +126,9 @@ h1 {
 
 @media screen and (min-width: 800px) {
   .resumeSecs {
+    color: red;
     width: 100%;
+
   }
   }
 }
