@@ -122,3 +122,11 @@ h1 {
 #biking ul {
   list-style-type: square;
 }
+
+
+@media screen and (min-width: 800px) {
+  .resumeSecs {
+
+  }
+  }
+}
