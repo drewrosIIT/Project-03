@@ -125,7 +125,7 @@ h1 {
 
 #resume section {
   background-color: red;
-  width: 80%;
+  width: 100%;
 
 
 }
@@ -134,6 +134,6 @@ h1 {
 @media screen and (min-width: 800px) {
   #resume section {
     background-color: blue;
-    width: 50%;
+    width: 5%;
   }
 }
