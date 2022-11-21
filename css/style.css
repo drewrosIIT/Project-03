@@ -125,6 +125,7 @@ h1 {
 
 .resmumeSecs {
   background-color: red;
+  margin-left: 1px;
 
 
 }
@@ -133,5 +134,6 @@ h1 {
 @media screen and (min-width: 800px) {
   .resmumeSecs {
     background-color: blue;
+    margin: 10px;
   }
 }
