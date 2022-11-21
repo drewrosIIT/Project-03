@@ -123,14 +123,16 @@ h1 {
   list-style-type: square;
 }
 
-.resmumeSecs {
-  background-color: yellow;
-  margin-left: 5%;
-  margin-right: 5%;
+.resumeSecs {
+  background-color: red;
+
+
 }
 
 
 @media screen and (min-width: 800px) {
-  .resmumeSecs {
-    }
+  .resumeSecs {
+    background-color: blue;
+  }
+
   }
