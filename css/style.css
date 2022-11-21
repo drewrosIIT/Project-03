@@ -124,12 +124,13 @@ h1 {
 }
 
 .resmumeSecs {
-  background-color: red;
+  background-color: yellow;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
 @media screen and (min-width: 800px) {
   .resmumeSecs {
-    background-color: green;
     }
   }
