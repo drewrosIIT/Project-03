@@ -1,0 +1,124 @@
+#main-navbar {
+  position: relative;
+  float: left;
+  background-color: blue;
+  width: 100%;
+}
+
+#navbar-container {
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+#main-navbar ul {
+  position: relative;
+  right: 50%;
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+#main-navbar ul li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+#main-navbar ul li a:hover {
+  background-color: white;
+  color: blue;
+}
+
+
+@media screen and (min-width: 800px) {
+  #main-navbar ul li {
+    display: block;
+    float: left;
+  }
+}
+
+body {
+  background-color: grey;
+  font-family: Veranda, Helvetica, sans-serif;
+}
+
+section {
+  border: 3px solid blue;
+  border-radius: 5px;
+  margin: 10px;
+  background-color: white;
+  padding-left: 10px;
+}
+
+h1 {
+  font-family: 'Alfa Slab One', cursive;
+  color: black;
+  text-align: center;
+}
+
+#resume {
+  color: navy;
+}
+
+#resume section {
+  width: 50%;
+  margin-left: 25%;
+  padding: 1.5%;
+}
+
+#resume footer {
+  text-align: center;
+}
+
+#jones {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 3px blue solid;
+  border-radius: 95%;
+}
+
+#hiking footer {
+  text-align: center;
+}
+
+#hiking {
+  color: #006400;
+}
+
+#hiking section {
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+#hiking {
+  text-align: center;
+}
+
+#hikingdesc {
+  font-size: 10px;
+}
+
+#biking {
+  color: red;
+  width: 900px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+#biking footer {
+  width: 900px;
+  margin: 10px;
+  padding: 5px;
+}
+
+
+
+#biking ul {
+  list-style-type: square;
+}
