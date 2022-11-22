@@ -40,24 +40,22 @@ function initMap() {
 
     trainRoute.setMap(map);
 
+    var coords = [
+    { lat: 41.87321799627811, lng: -87.62801527359747 },
+    { lat: 41.87433712200045, lng: -87.62768714750437 },
+    { lat: 41.87515516090486, lng: -87.62951731727257 },
+    { lat: 41.87321799627811, lng: -87.62801527359747 },
+  ];
 
-
-
-    const rectangle = new google.maps.Rectangle({
-    strokeColor: "#FF0000",
-    strokeOpacity: 0.8,
+  var connectr = new google.maps.Polygon({
+    paths: coords,
+    strokeColor: "#blue",
+    strokeOpacity: 1.0,
     strokeWeight: 2,
-    fillColor: "#FF0000",
-    fillOpacity: 0.35,
-    map,
-    bounds: {
-      north: 42,
-      south: 40,
-      east: -88,
-      west: -86,
-    },
+    fillColor: "#blue",
+    fillOpacity: 0.5,
+    map: map
   });
-}
 
 
 }
