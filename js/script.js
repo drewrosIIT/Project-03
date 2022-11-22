@@ -6,35 +6,40 @@ function initMap() {
     zoom: 17
   });
 
-  const jones = new google.maps.Marker({
+  var jones = new google.maps.Marker({
     position: {lat: 41.87321799627811, lng: -87.62801527359747},
     map: map,
   });
 
-  const potbelley = new google.maps.Marker({
+  var potbelley = new google.maps.Marker({
     position: {lat: 41.87515516090486, lng: -87.62951731727257},
     map: map,
   });
 
-  const harrison = new google.maps.Marker({
+  var harrison = new google.maps.Marker({
     position: {lat: 41.87433712200045, lng: -87.62768714750437},
     map: map,
     title: "JCP",
   });
 
 
-  const jonesWindow = new google.maps.InfoWindow({
-    content: "This is Jones College Prep, which is where I go to school.",
-    ariaLabel: "Jones College Prep",
-  });
 
+  const trainRouteCoordinates = [
+      {lat: 41.87321799627811, lng: -87.62801527359747 },
+      {lat: 41.87327727459461, lng: -87.62755313504377},
+      { lat: 41.87433712200045, lng: -87.62768714750437 },
 
-  jones.addListener("click", () => {
-    infowindow.open({
-      anchor: jones,
-      map: map,
+    ];
+    const trainRoute = new google.maps.Polyline({
+      path: trainRouteCoordinates,
+      geodesic: true,
+      strokeColor: "#FF0000",
+      strokeOpacity: 1.0,
+      strokeWeight: 2,
     });
-  });
+
+    trainRoute.setMap(map);
+
 
 }
 
