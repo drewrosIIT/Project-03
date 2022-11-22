@@ -156,3 +156,15 @@ h1 {
     margin-left: 5%;
   }
 }
+
+#resume h1 {
+  text-align: center;
+  padding: 5%;
+}
+
+@media screen and (min-width: 800px) {
+  #resume h1 {
+    width: 80%;
+    margin-left: 5%;
+  }
+}
