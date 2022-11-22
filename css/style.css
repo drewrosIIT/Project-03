@@ -33,14 +33,6 @@
   color: blue;
 }
 
-
-@media screen and (min-width: 800px) {
-  #main-navbar ul li {
-    display: block;
-    float: left;
-  }
-}
-
 body {
   background-color: grey;
   font-family: Veranda, Helvetica, sans-serif;
@@ -123,7 +115,7 @@ h1 {
   list-style-type: square;
 }
 
-#hiking section {
+#resume section {
   width: 90%;
   margin-left: 2.5%;
   margin-right: 2.5%;
@@ -135,7 +127,7 @@ h1 {
 
 
 @media screen and (min-width: 800px) {
-  #hiking section {
+  #resume section {
     width: 50%;
     margin-left: 25%;
     padding: 1.5%;
@@ -146,7 +138,7 @@ h1 {
 }
 
 
-#hiking section section {
+#resume section section {
   width: 70%;
   margin-right: 30%;
   margin-left: 10%;
@@ -155,14 +147,14 @@ h1 {
 }
 
 @media screen and (min-width: 800px) {
-  #hiking section section {
+  #resume section section {
     width: 80%;
     margin-left: 5%;
   }
 }
 
 
-#hiking p {
+#resume p {
   width: 90%;
   padding-left: 2%;
   padding-right: 2%;
@@ -170,9 +162,29 @@ h1 {
 }
 
 @media screen and (min-width: 800px) {
-  #hiking p {
+  #resume p {
     width: 80%;
     padding-left: 5%;
     padding-right: 5%;
+  }
+}
+
+
+#main-navbar ul li {
+  margin: 10px;
+  border: 3px white solid;
+  border-radius: 20px;
+  background-color: black;
+
+}
+
+
+@media screen and (min-width: 800px) {
+  #main-navbar ul li {
+    display: block;
+    float: left;
+    border: none;
+    background-color: blue;
+    margin: 0px;
   }
 }
