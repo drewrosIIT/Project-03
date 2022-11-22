@@ -146,12 +146,16 @@ h1 {
 }
 
 #resume section section {
-
+  background-color: orange;
+  width: 60%;
+  margin-right: 20%;
+  margin-left: 10%;
 }
 
 @media screen and (min-width: 800px) {
   #resume section section {
-    width: 60%;
-    margin-right: 10%;
+    background-color: red;
+    width: 90%;
+    margin-right: 20%;
   }
 }
