@@ -33,7 +33,7 @@ function initMap() {
     const trainRoute = new google.maps.Polyline({
       path: trainRouteCoordinates,
       geodesic: true,
-      strokeColor: "#FF0000",
+      strokeColor: "blue",
       strokeOpacity: 1.0,
       strokeWeight: 2,
     });
