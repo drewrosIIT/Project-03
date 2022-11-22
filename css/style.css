@@ -175,6 +175,7 @@ h1 {
   border: 3px white solid;
   border-radius: 20px;
   background-color: black;
+  padding: 2px;
 
 }
 
@@ -186,5 +187,6 @@ h1 {
     border: none;
     background-color: blue;
     margin: 0px;
+    padding: 1px;
   }
 }
